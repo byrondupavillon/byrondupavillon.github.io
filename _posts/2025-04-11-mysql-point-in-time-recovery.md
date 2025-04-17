@@ -184,6 +184,7 @@ Percona XtraBackup handles this using the `--apply-log` process, making the back
 
 ```bash
 # For MySQL 8.0+
+sudo percona-release setup pxb-80
 apt-get install percona-xtrabackup-80
 ```
 
