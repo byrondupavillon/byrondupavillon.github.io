@@ -32,6 +32,8 @@ server {
 
 ## 🔁 URL Rewriting & Proxying
 
+Internal Rewrite modifies the request URI internally within Nginx, without notifying the client. It’s typically used to remap URLs for backend routing (e.g., rewriting a clean URL to a script path) while keeping the browser's address bar unchanged.
+
 ```nginx
 location = /mail/unsubscribe {
     rewrite ^(/mail/unsubscribe/[a-f0-9\-]+/[a-f0-9\-]+)/.* $1 break;
@@ -60,6 +62,8 @@ location ~* ^/mail/unsubscribe/([a-f0-9\-]+)/([a-f0-9\-]+)/ETVi {
 
 
 ## 🧹 Redirects
+
+Redirect, tells the client (usually via a 301 or 302 HTTP status code) to make a new request to a different URL. This changes the browser’s address bar and is ideal for guiding users or bots to a new location (e.g., when content is moved or renamed).
 
 ```nginx
 location /old-path {
