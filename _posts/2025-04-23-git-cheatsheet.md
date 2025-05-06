@@ -1,3 +1,17 @@
+---
+title: "🧠 Git Cheatsheet"
+date: 2025-04-23
+description: "A comprehensive Git cheatsheet covering configuration, staging, commits, branching, merging, logs, tags, and more. Ideal for beginners and as a quick reference for experienced developers."
+categories:
+  - git
+tags:
+  - git
+  - version control
+  - command line
+  - cheatsheet
+  - developer tools
+---
+
 # Git Basics – A Practical Reference Guide
 
 A personal cheat sheet and walkthrough for common Git commands and workflows, including setup, staging, committing, branching, merging, resetting, tagging, and more. Great for both beginners and as a quick reference for seasoned developers.
