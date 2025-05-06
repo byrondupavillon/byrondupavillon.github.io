@@ -303,7 +303,8 @@ git merge
 Creating a file in the repo called .gitignore will tell git to ignore all files linked within.
 
 Create a `.gitignore` file:
-```gitignore
+
+```bash
 ###################
 # Compiled source #
 ###################
