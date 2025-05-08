@@ -11,9 +11,9 @@ tags:
   - disaster recovery
 ---
 
-> ⚠️ **IMPORTANT:** Always back up your data before performing disk operations. While these steps are generally safe, there is still a risk of data loss.
-
 This guide explains how to **extend an existing partition** on a Linux system. In the example, we’ll extend the disk `/dev/vdb` from 128.8 GB to 268.4 GB.
+
+> ⚠️ **IMPORTANT:** Always back up your data before performing disk operations. While these steps are generally safe, there is still a risk of data loss.
 
 ---
 
