@@ -373,6 +373,9 @@ Before beginning the binary log replay process, ensure the following parameters 
 # ✅ Allows events with the same server ID (useful when replaying logs from the same instance)
 replicate-same-server-id = 1
 
+# ⚠️ Above requires log_replica_updates to be disabled 
+log_replica_updates = OFF
+
 # 🛑 Prevents replication threads from auto-starting on server boot — required for controlled replay
 skip-replica-start
 
