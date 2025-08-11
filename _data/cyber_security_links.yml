@@ -1,0 +1,73 @@
+# 🔍 Vulnerability Databases
+- name: CVE.org
+  url: https://www.cve.org/
+  desc: Official Common Vulnerabilities and Exposures database.
+  section: Vulnerability Databases
+
+- name: NVD - National Vulnerability Database
+  url: https://nvd.nist.gov/vuln/search
+  desc: US government repository of vulnerability management data.
+  section: Vulnerability Databases
+
+- name: AttackerKB
+  url: https://attackerkb.com/
+  desc: Community-driven vulnerability knowledge base by Rapid7.
+  section: Vulnerability Databases
+
+- name: Exploit DB
+  url: https://www.exploit-db.com/#
+  desc: Archive of public exploits and vulnerable software.
+  section: Vulnerability Databases
+
+# 🛠 Exploitation & Pentesting Tools
+- name: GTFOBins
+  url: https://gtfobins.github.io/
+  desc: List of Unix binaries that can be exploited for privilege escalation.
+  section: Exploitation & Pentesting Tools
+
+- name: Linux Privilege Escalation Basics
+  url: https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics
+  desc: Guide to escalating privileges on Linux systems.
+  section: Exploitation & Pentesting Tools
+
+- name: Pentestmonkey Reverse Shell Cheat Sheet
+  url: https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+  desc: Quick reference for reverse shell one-liners.
+  section: Exploitation & Pentesting Tools
+
+- name: SecLists
+  url: https://github.com/danielmiessler/SecLists
+  desc: Collection of multiple types of lists for security assessments.
+  section: Exploitation & Pentesting Tools
+
+# 🔐 Cryptography & Encoding
+- name: CrackStation
+  url: https://crackstation.net/
+  desc: Free password hash cracker and lookup tables.
+  section: Cryptography & Encoding
+
+- name: CyberChef
+  url: https://gchq.github.io/CyberChef/
+  desc: The "Cyber Swiss Army Knife" for encryption, encoding, and decoding.
+  section: Cryptography & Encoding
+
+- name: DCode Cipher Identifier
+  url: https://www.dcode.fr/cipher-identifier
+  desc: Detect and identify classic ciphers and codes.
+  section: Cryptography & Encoding
+
+# 📚 Security References & Resources
+- name: s0cm0nkey's Security Reference Guide
+  url: https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/
+  desc: Detailed guide covering various security topics and tools.
+  section: Security References
+
+- name: HackTricks
+  url: https://book.hacktricks.wiki/en/index.html
+  desc: Comprehensive pentesting and hacking tricks guide.
+  section: Security References
+
+- name: TmpFiles
+  url: https://tmpfiles.org/
+  desc: Free temporary file hosting for sharing files securely.
+  section: Security References
