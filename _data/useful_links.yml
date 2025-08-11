@@ -1,0 +1,29 @@
+- name: Webhook.site
+  url: https://webhook.site/
+  desc: Easily test, inspect, and debug webhooks.
+  section: HTTP Tools
+
+- name: Mockbin.io
+  url: https://mockbin.io/
+  desc: Create mock HTTP requests and responses.
+  section: HTTP Tools
+
+- name: Mergely
+  url: https://editor.mergely.com/
+  desc: Online diff and merge editor.
+  section: Diff & Merge
+
+- name: Cipherlist
+  url: https://syslink.pl/cipherlist/
+  desc: Check supported SSL/TLS cipher suites.
+  section: Security
+
+- name: DevOps Roadmap
+  url: https://roadmap.sh/devops
+  desc: Visual guide to becoming a DevOps engineer.
+  section: Learning Resources
+
+- name: DigiCert CSR Generator (OpenSSL)
+  url: https://www.digicert.com/easy-csr/openssl.htm
+  desc: Easily create a CSR and private key using OpenSSL.
+  section: Security
